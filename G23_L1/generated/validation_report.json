@@ -1,0 +1,47 @@
+{
+  "group": "G23",
+  "raw_files_sha256_verified": true,
+  "max_supplied_vs_recomputed_n_band_relative_error": 3.752171017358298e-12,
+  "n_fermi_numeric_vs_closed_form_relative_error_at_operating_point": 3.1029209711905545e-07,
+  "reference_ratio_checks": {
+    "0.000_eV": {
+      "actual": 1.0,
+      "expected_approx": 1.0,
+      "absolute_tolerance": 0.005,
+      "passed": true
+    },
+    "0.073_eV": {
+      "actual": 2.0049396913636293,
+      "expected_approx": 2.0,
+      "absolute_tolerance": 0.03,
+      "passed": true
+    },
+    "0.100_eV": {
+      "actual": 2.598845161149426,
+      "expected_approx": 2.6,
+      "absolute_tolerance": 0.03,
+      "passed": true
+    },
+    "0.200_eV": {
+      "actual": 5.104373571868879,
+      "expected_approx": 5.1,
+      "absolute_tolerance": 0.05,
+      "passed": true
+    }
+  },
+  "positive_EF_sweep_strictly_monotonic": true,
+  "operating_point": {
+    "EF_op_eV": 0.13147582987256196,
+    "n_band_op_cm2": 1338754696706.3477,
+    "n_fermi_op_cm2": 399450544194.0188,
+    "correction_factor": 3.351490481525281,
+    "rho_ohm_sq": 382.7744684401036,
+    "mobility_band_cm2_Vs": 12179.953681481391,
+    "mobility_corrected_cm2_Vs": 40820.998828903685
+  },
+  "crossings_eV": {
+    "C_2": 0.07276188988765439,
+    "C_4": 0.15734690713571076
+  },
+  "pipeline_commit": "caac824e534d4201223ebe0ce20212ca3db965e1"
+}
